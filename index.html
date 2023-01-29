@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="images/Frame 6.png" alt="logo de alura" >
+        </header>
+
+        <main>
+            <section>
+               <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+               <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acento</h6>
+               </div>
+               <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+               </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="empty">Ningún mensaje fue encontrado</button>    
+                    <button class="copiar" onclick="btnCopiar()">Copiar</button>    
+                </div>
+            </section>
+        </main>
+
+        <footer>
+       <div class="footer-content">
+        <ul class="socials">
+            <li><a href="#"><a href="https://github.com/felipepchv" ><i class="fa fa-github"></i></a></a></li>
+            <li><a href="#"><a href="https://www.linkedin.com/in/felipe-pacheco-b90764202/"><i class="fa fa-linkedin-square"></i></a></a></li>
+        </ul>
+        <div class="footer-bottom">
+            <p> Elaborado por Felipe Pacheco &copy; 2023 </p>
+        </div>
+       </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
